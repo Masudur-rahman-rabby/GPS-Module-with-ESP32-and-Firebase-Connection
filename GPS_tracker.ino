@@ -101,7 +101,7 @@ Firebase.RTDB.setFloat(&fbdo, "Location/Latitute", lati);
           
       Serial.print(lati, 6);
       Serial.print(F(","));
-      Serial.print(, 6);
+      Serial.print(longi, 6);
     }
     else
     {
